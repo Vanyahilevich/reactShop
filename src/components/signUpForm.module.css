@@ -1,0 +1,13 @@
+.formContainer {
+  width: 30%;
+  min-width: 400px;
+  min-height: 100%;
+  margin: 0  0 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox{
+  align-self: start;
+}

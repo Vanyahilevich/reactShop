@@ -1,0 +1,21 @@
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 62px;
+  font-weight: 700;
+}
+
+.alert {
+  position: absolute;
+  top: 50px;
+  left: 31%;
+  transform: translate(-20%, -50%);
+  width: 610px;
+}

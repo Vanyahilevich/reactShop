@@ -1,0 +1,100 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 100%;
+  width: 80%;
+}
+
+
+.mySwiper2:hover .swiper-slide {
+  cursor: zoom-in;
+}
+
+.mySwiper2:hover .swiper-slide-zoomed {
+  cursor: zoom-out;
+}
+
+.mySwiper2:active .swiper-slide-zoomed {
+  cursor: move;
+}
+
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  cursor: pointer;
+}
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
+
+
+.mySwiper {
+  height: 100%;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mySwiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide:hover {
+  cursor: pointer;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-scrollbar.swiper-scrollbar-vertical {
+  left: 0
+}

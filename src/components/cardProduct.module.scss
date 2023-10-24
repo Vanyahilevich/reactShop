@@ -1,0 +1,32 @@
+.card {
+  max-width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    outline: 1px solid #1976d2;
+    cursor: pointer;
+  }
+}
+
+.cardMedia {
+  height: 380px;
+}
+
+.cardContent {
+  padding: 8px 16px 0px;
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0px;
+  &:hover {
+    color: #FAAD3A;
+  }
+}
