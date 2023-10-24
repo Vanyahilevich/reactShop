@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.083738f9.css","mappings":"AAAA,qBACE,WACF,CAEA,0BACE,SAAa,CACb,+BAEF,CACA,gCACE,YACF","sources":["components/MainLogo.module.css"],"sourcesContent":[".svg{\n  height: 40px;\n}\n\n.svg path{\n  fill: #FFFFFF;\n  transition: fill 0.3s ease-in-out;\n\n}\n.svg:hover path{\n  fill: #FAAD3A\n}\n"],"names":[],"sourceRoot":""}
